@@ -1,0 +1,18 @@
+/* main-color : #e83e8c; */
+.bg-main {
+  background-color: #9bb7d4 !important;
+}
+a.bg-main:focus,
+a.bg-main:hover,
+button.bg-main:focus,
+button.bg-main:hover {
+  background-color: #9bb7d4 !important;
+}
+
+.bg-main2 {
+  background-color: #9bb7d4 !important;
+}
+
+.bg-green {
+  background-color: #9bb7d4;
+}

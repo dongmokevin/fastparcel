@@ -1,0 +1,246 @@
+/* main-color : #e83e8c; */
+.bg-main {
+  background-color: #00a170 !important;
+}
+a.bg-main:focus,
+a.bg-main:hover,
+button.bg-main:focus,
+button.bg-main:hover {
+  background-color: #007753 !important;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+}
+
+.w3-main {
+  background-color: #00a170 !important;
+  color: #fff !important;
+}
+
+.w3-red,
+.w3-hover-red:hover {
+  color: #fff !important;
+  background-color: #f44336 !important;
+}
+
+.btn-main {
+  color: #fff;
+  background-color: #00a170;
+  border-color: #00a170;
+}
+.btn-main:hover {
+  color: #fff;
+  background-color: #007753;
+  border-color: #007753;
+}
+.btn-main.focus,
+.btn-main:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 119, 83, 0.502);
+}
+.btn-main.disabled,
+.btn-main:disabled {
+  color: #fff;
+  background-color: #00a170;
+  border-color: #00a170;
+}
+.btn-main:not(:disabled):not(.disabled).active,
+.btn-main:not(:disabled):not(.disabled):active,
+.show > .btn-main.dropdown-toggle {
+  color: #fff;
+  background-color: #007753;
+  border-color: #007753;
+}
+.btn-main:not(:disabled):not(.disabled).active:focus,
+.btn-main:not(:disabled):not(.disabled):active:focus,
+.show > .btn-main.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 119, 83, 0.502);
+}
+
+/* .btn {
+  border: none;
+  color: white;
+  padding: 14px 26px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.btn-success {
+  background-color: #00a170;
+}
+
+.btn-success:hover {
+  color: #000;
+  background-color: #a0daa9;
+} */
+
+.w3-2021-marigold {
+  color: #fff;
+  background-color: #fdac53;
+}
+.w3-2021-cerulean {
+  color: #000;
+  background-color: #9bb7d4;
+}
+.w3-2021-rust {
+  color: #fff;
+  background-color: #b55a30;
+}
+.w3-2021-illuminating {
+  color: #000;
+  background-color: #f5df4d;
+}
+.w3-2021-french-blue {
+  color: #fff;
+  background-color: #0072b5;
+}
+.w3-2021-green-ash {
+  color: #000;
+  background-color: #a0daa9;
+}
+.w3-2021-burnt-coral {
+  color: #fff;
+  background-color: #e9897e;
+}
+.w3-2021-mint {
+  color: #fff;
+  background-color: #00a170;
+}
+.w3-2021-amethyst-orchid {
+  color: #fff;
+  background-color: #926aa6;
+}
+.w3-2021-raspberry-sorbet {
+  color: #fff;
+  background-color: #d2386c;
+}
+.w3-2021-inkwell {
+  color: #fff;
+  background-color: #363945;
+}
+.w3-2021-ultimate-gray {
+  color: #fff;
+  background-color: #939597;
+}
+.w3-2021-buttercream {
+  color: #000;
+  background-color: #efe1ce;
+}
+.w3-2021-desert-mist {
+  color: #000;
+  background-color: #e0b589;
+}
+.w3-2021-willow {
+  color: #fff;
+  background-color: #9a8b4f;
+}
+
+.w3-2020-classic-blue {
+  color: #fff;
+  background-color: #34568b;
+}
+.w3-2020-flame-scarlet {
+  color: #fff;
+  background-color: #cd212a;
+}
+.w3-2020-saffron {
+  color: #000;
+  background-color: #ffa500;
+}
+.w3-2020-biscay-green {
+  color: #000;
+  background-color: #56c6a9;
+}
+.w3-2020-chive {
+  color: #fff;
+  background-color: #4b5335;
+}
+.w3-2020-faded-denim {
+  color: #fff;
+  background-color: #798ea4;
+}
+.w3-2020-orange-peel {
+  color: #fff;
+  background-color: #fa7a35;
+}
+.w3-2020-mosaic-blue {
+  color: #fff;
+  background-color: #00758f;
+}
+.w3-2020-sunlight {
+  color: #000;
+  background-color: #edd59e;
+}
+.w3-2020-coral-pink {
+  color: #000;
+  background-color: #e8a798;
+}
+.w3-2020-cinnamon-stick {
+  color: #fff;
+  background-color: #9c4722;
+}
+.w3-2020-grape-compote {
+  color: #fff;
+  background-color: #6b5876;
+}
+.w3-2020-lark {
+  color: #fff;
+  background-color: #b89b72;
+}
+.w3-2020-navy-blazer {
+  color: #fff;
+  background-color: #282d3c;
+}
+.w3-2020-brilliant-white {
+  color: #000;
+  background-color: #edf1ff;
+}
+.w3-2020-ash {
+  color: #fff;
+  background-color: #a09998;
+}
+.w3-2020-amberglow {
+  color: #fff;
+  background-color: #dc793e;
+}
+.w3-2020-samba {
+  color: #fff;
+  background-color: #a2242f;
+}
+.w3-2020-sandstone {
+  color: #fff;
+  background-color: #c48a69;
+}
+.w3-2020-green-sheen {
+  color: #000;
+  background-color: #d9ce52;
+}
+.w3-2020-rose-tan {
+  color: #000;
+  background-color: #d19c97;
+}
+.w3-2020-ultramarine-green {
+  color: #fff;
+  background-color: #006b54;
+}
+.w3-2020-fired-brick {
+  color: #fff;
+  background-color: #6a2e2a;
+}
+.w3-2020-peach-nougat {
+  color: #000;
+  background-color: #e6af91;
+}
+.w3-2020-magenta-purple {
+  color: #fff;
+  background-color: #6c244c;
+}
