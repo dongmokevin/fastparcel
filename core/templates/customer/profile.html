@@ -26,11 +26,10 @@
 
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
-    firebase.app
-
-
+    firebase.initializeApp(firebaseConfig);
 
     const auth = getAuth();
+
     window.recaptchaVerifier = new RecaptchaVerifier('recaptcha-container', {}, auth);
 </script>
 {% endblock head %}
@@ -121,7 +120,9 @@
 </script>
 
 <!-- <script>
-    window.recaptchaVerifier = new app.auth.RecaptchaVerifier('recaptcha-container');
+    // window.recaptchaVerifier = new app.auth.RecaptchaVerifier('recaptcha-container');
+
+    
 </script> -->
 
 
