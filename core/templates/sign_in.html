@@ -28,6 +28,9 @@
                             New here ? click here to register <a href="/sign-up/?next={{ request.GET.next }}">Sign
                                 Up</a>
                         </p>
+                        <hr>
+                        <a href="{% url 'social:begin' 'facebook' %}?next={{ request.GET.next }}"
+                            class="btn btn-primary btn-block">Sign in with Facbook</a>
                     </form>
                 </div>
             </div>

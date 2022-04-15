@@ -23,7 +23,7 @@
 <body>
     <nav class="navbar {% if not request.user.is_authenticated %} navbar-expand-lg {% endif %} bg-white navbar-light">
 
-        <a class="navbar-brand" href="/">Fast Parcel</a>
+        <a class="navbar-brand" href="/"> </a>
         {% if not request.user.is_authenticated %}
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,6 +53,28 @@
     </main>
 
     <footer class="text-center mt-5 mb-5 bg-green">&copy; CodeKev</footer>
+
+    <script src="https://unpkg.com/bootoast@1.0.1/dist/bootoast.min.js">
+
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/bootoast@1.0.1/dist/bootoast.min.css">
+    <script>
+        function toast(message, type) {
+            bootoast.toast({
+                position: 'leftBottom',
+                message,
+                type,
+            })
+        }
+
+        {% if messages %}
+
+        {% for message in messages %}
+        toast('{{message}}', '{{message.tags}}')
+        {% endfor %}
+        {% endif %}
+    </script>
+
 </body>
 
 </html>

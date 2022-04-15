@@ -19,12 +19,36 @@ from django.urls import path, include
 from django.conf.urls.static import static
 from django.contrib.auth import views as auth_views
 from django.conf import settings
+from django.conf.urls.static import static
+
+from core.customer import views as customer_views
+from core.courier import views as courier_views
+
+
+SOCIAL_AUTH_URL_NAMESPACE = 'social'
+
+
+customer_urlpatterns = [
+    path('', customer_views.home, name="home"),
+    
+    path('profile/', customer_views.profile_page, name='profile'),
+
+]
+
+courier_urlpatterns = [
+    path('', courier_views.home, name="home"),
+    
+]
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sign-in/', auth_views.LoginView.as_view(template_name="sign_in.html")),
+    path('',
+include('social_django.urls', namespace='social')),
+    path('sign-in/', auth_views.LoginView.as_view(template_name="sign_in.html"), name='sign-in'),
     path('sign-out/', auth_views.LogoutView.as_view(next_page="/")),
     path('', include('core.urls')),
+    path('customer/', include((customer_urlpatterns, 'customer'), namespace='customer')),
+    path('courier/', include((courier_urlpatterns, 'courier'), namespace='courier')),
 ]
 
 
